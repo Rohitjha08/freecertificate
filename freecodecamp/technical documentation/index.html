@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Documentation</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Navbar Section -->
+    <nav id="navbar">
+        <header>JavaScript Documentation</header>
+        <a class="nav-link" href="#Introduction">Introduction</a>
+        <a class="nav-link" href="#Variables">Variables</a>
+        <a class="nav-link" href="#Functions">Functions</a>
+        <a class="nav-link" href="#Loops">Loops</a>
+        <a class="nav-link" href="#Arrays">Arrays</a>
+    </nav>
+
+    <!-- Main Documentation Section -->
+    <main id="main-doc">
+        <!-- Section 1: Introduction -->
+        <section class="main-section" id="Introduction">
+            <header>Introduction</header>
+            <p>JavaScript is a versatile programming language primarily used for web development. It allows you to implement complex things on web pages.</p>
+            <p>JavaScript is high-level, often just-in-time compiled, and multi-paradigm, supporting object-oriented, imperative, and functional programming styles.</p>
+            <p>The language is one of the core technologies of the World Wide Web, alongside HTML and CSS, and is supported by all modern web browsers without the need for plugins.</p>
+        </section>
+
+        <!-- Section 2: Variables -->
+        <section class="main-section" id="Variables">
+            <header>Variables</header>
+            <p>Variables are containers for storing data values. In JavaScript, you can declare variables using <code>var</code>, <code>let</code>, or <code>const</code>.</p>
+            <p>Example:</p>
+            <code>let x = 10;</code>
+            <code>const y = 20;</code>
+            <p>The <code>let</code> and <code>const</code> keywords were introduced in ES6 and provide better scoping than <code>var</code>.</p>
+        </section>
+
+        <!-- Section 3: Functions -->
+        <section class="main-section" id="Functions">
+            <header>Functions</header>
+            <p>Functions are one of the fundamental building blocks in JavaScript. A function is a JavaScript procedure—a set of statements that performs a task or calculates a value.</p>
+            <p>Example of a function declaration:</p>
+            <code>function greet() {</code>
+            <code>  console.log('Hello, World!');</code>
+            <code>}</code>
+            <p>You can also define functions using arrow functions:</p>
+            <code>const greet = () => console.log('Hello, World!');</code>
+        </section>
+
+        <!-- Section 4: Loops -->
+        <section class="main-section" id="Loops">
+            <header>Loops</header>
+            <p>Loops are handy in JavaScript when you want to execute a block of code repeatedly. JavaScript supports several loop types:</p>
+            <ul>
+                <li><code>for</code> loop</li>
+                <li><code>while</code> loop</li>
+                <li><code>do...while</code> loop</li>
+            </ul>
+            <p>Example of a <code>for</code> loop:</p>
+            <code>for (let i = 0; i < 5; i++) {</code>
+            <code>  console.log(i);</code>
+            <code>}</code>
+        </section>
+
+        <!-- Section 5: Arrays -->
+        <section class="main-section" id="Arrays">
+            <header>Arrays</header>
+            <p>Arrays in JavaScript are used to store multiple values in a single variable. You can create an array like this:</p>
+            <code>let fruits = ['Apple', 'Banana', 'Mango'];</code>
+            <p>Arrays provide numerous methods for manipulating data such as:</p>
+            <ul>
+                <li><code>push()</code> - Add elements to the end</li>
+                <li><code>pop()</code> - Remove the last element</li>
+                <li><code>shift()</code> - Remove the first element</li>
+                <li><code>unshift()</code> - Add elements to the beginning</li>
+            </ul>
+        </section>
+    </main>
+
+</body>
+</html>
