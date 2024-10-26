@@ -35,3 +35,7 @@ here i am suggesting a simple virtual job simulation by big company which are av
 Navigate to [forages virtual internship](https://www.theforage.com/landing/Intentional%20Gap%20Year/qkoWpeprptPNHfo5t/Intentional%20Gap%20Year%20Internships?ref=FsSNG3bmE6towPm6X)
 
 here you will find multiple job simulation you just have to choose one and answer the question you will get an **CERtificate**
+
+**Currently there are many free technical courses from top universities information are available on [CLasscentral](https://www.classcentral.com/report/free-certificates/)**
+
+you can check info about free courses on their website
